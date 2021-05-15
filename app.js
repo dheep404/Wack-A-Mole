@@ -30,7 +30,6 @@ function countDown() {
 
 }
 
-
 let molePosition
 const score = document.querySelector(".score")
 
@@ -51,6 +50,8 @@ square.forEach(square => {
             result++;
             score.textContent = result
             molePosition = null
+
+
         }
     })
 
